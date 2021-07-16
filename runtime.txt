@@ -1,2 +1,2 @@
 python-3.9.6
-telethon-1.23.0
+
