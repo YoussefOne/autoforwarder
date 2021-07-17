@@ -1,3 +1,4 @@
 pyaes
 rsa
 telethon
+pyasn1>=0.1.3
