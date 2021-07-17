@@ -1,1 +1,1 @@
-worker: python3 autoforwarder.py
+worker: python3 main.py
