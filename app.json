@@ -18,13 +18,13 @@
     "API_HASH": {
       "description": "App api_hash from https://my.telegram.org"
     },
-    "BOT_TOKEN": {
+    #"BOT_TOKEN": {
       "description": "Bot token from https://t.me/BotFather"
     },
-    "FROM_CHATS": {
+    #"FROM_CHATS": {
       "description": "Chat ID of the channel/groups/chat from where to forward messages"
     },
-    "TO_CHATS": {
+    #"TO_CHATS": {
       "description": "Chat ID of thr chat where to forward messages"
     },
     "TELEGRAM_SESSION": {
