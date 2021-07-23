@@ -1,0 +1,35 @@
+{
+  "name": "autoforwarder",
+  "description": "A autoforwarder script, which can easily be deployed to Heroku.",
+  "repository": "https://github.com/abhishekverma1996/forwarderbot",
+  "logo": "https://github.com/abhishekverma1996/forwarderbot/blob/main/2f8d9aee-2f5c-4bef-95ec-704217995418.jpg",
+  "keywords": ["python", "pyrogram", "telegram", "forwarder"],
+  "image": "heroku/python",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "API_ID": {
+      "description": "App api_id from https://my.telegram.org"
+    },
+    "API_HASH": {
+      "description": "App api_hash from https://my.telegram.org"
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token from https://t.me/BotFather"
+    },
+    "FROM_CHATS": {
+      "description": "Chat ID of the channel/groups/chat from where to forward messages"
+    },
+    "TO_CHATS": {
+      "description": "Chat ID of thr chat where to forward messages"
+    },
+    "TELEGRAM_SESSION": {
+      "description": "Telegram session name, required if you want to login as user",
+      "required": false
+    }
+  }
+}
