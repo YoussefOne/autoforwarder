@@ -2,7 +2,7 @@
   "name": "autoforwarder",
   "description": "A autoforwarder script, which can easily be deployed to Heroku.",
   "repository": "https://github.com/abhishekverma1996/forwarderbot",
-  "logo": "https://github.com/abhishekverma1996/forwarderbot/blob/main/2f8d9aee-2f5c-4bef-95ec-704217995418.jpg",
+  "logo": "https://avatars.githubusercontent.com/u/43173187?v=4",
   "keywords": ["python", "pyrogram", "telegram", "forwarder"],
   "image": "heroku/python",
   "formation": {
